@@ -1,0 +1,9 @@
+package oops_program;
+
+public class test1 
+{
+	void  meth1()
+	{
+		System.out.println("first class");
+	}
+}
