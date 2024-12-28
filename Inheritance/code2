@@ -1,0 +1,14 @@
+package oops_program;
+
+public class test2 extends test1
+{
+	void meth2()
+	{
+		System.out.println("second class");
+	}
+	public static void main(String[] args) 
+	{
+		test2 obj=new test2();
+		obj.meth1();
+	}
+}
