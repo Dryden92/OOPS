@@ -1,0 +1,24 @@
+package oops_program;
+import java.util.Scanner;
+public class encap2 
+{
+	Scanner sc= new Scanner(System.in);
+	void meth()
+	{
+		encap1 obj=new encap1();
+		
+		System.out.println("enter your name: ");
+		obj.setname(sc.next());
+		
+		System.out.println("enter your age: ");
+		obj.setage(sc.nextInt());
+		
+		System.out.println("your name is: "+obj.getname());
+		System.out.println("your age is: "+obj.getage());
+	}
+	
+	public static void main(String[] args) 
+	{
+		new encap2().meth();
+	}
+}
