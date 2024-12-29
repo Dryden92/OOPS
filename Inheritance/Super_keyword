@@ -1,0 +1,19 @@
+package oops_program;
+
+public class Super 
+{
+	void meth1()
+	{
+		System.out.println("first class method");
+	}
+	Super()
+	{
+		
+		this.meth1();
+		System.out.println("first constructor");
+	}
+	Super(int s)
+	{
+		System.out.println("parameter const "+s);
+	}
+}
