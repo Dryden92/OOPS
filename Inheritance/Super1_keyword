@@ -1,0 +1,26 @@
+package oops_program;
+
+public class Super1 extends Super
+{
+	void meth()
+	{
+		System.out.println("second class method called");
+		super.meth1();
+	}
+	Super1()
+	{
+		System.out.println("second constructor");
+	}
+	Super1(int a)
+	{
+		super(3456);
+		System.out.println("parameter const "+ a);
+	}
+	public static void main(String[] args) 
+	{
+		Super1 obj=new Super1();
+		Super1 obj1=new Super1(7250);
+		obj1.meth();
+	}
+
+}
