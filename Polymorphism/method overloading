@@ -1,0 +1,61 @@
+package oops_program;
+
+public class method_overload 
+{
+	private static void meth1()
+	{
+		System.out.println(10);
+	}
+	static int meth1(int i)
+	{
+		System.out.println(20);
+		return i;
+	}
+	public void meth1(String s)
+	{
+		System.out.println(30);
+	}
+	static protected String meth1(String s, int i)
+	{
+		System.out.println(50);
+		return s;
+	}
+	StringBuffer meth1(StringBuffer sb)
+	{
+		System.out.println(60);
+		return sb;
+	}
+	void meth1(byte b)
+	{
+		System.out.println(70);
+	}
+	public static void main(String[] args)
+	{
+		method_overload obj=new method_overload();
+		obj.meth1();
+		obj.meth1(5);
+		obj.meth1("dryden");
+		obj.meth1("java");
+		obj.meth1(100);
+		obj.meth1("prasad",20);
+		obj.main();
+		obj.main("dryden");
+	}
+	public static void main()
+	{
+		System.out.println("first main method called");
+	}
+	public static void main(String s)
+	{
+		System.out.println("second main method called");
+	}
+	method_overload()
+	{
+		this(100);
+		System.out.println("this is default constructor");
+	}
+	method_overload(int a)
+	{
+		System.out.println("this is parameterized constructor "+a);
+	}
+}
