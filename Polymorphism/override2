@@ -1,0 +1,16 @@
+package oops_program;
+
+public class override1 extends override
+{
+	
+	void meth(int a)
+	{
+		System.out.println("this is first");
+	}
+	public static void main(String[] args)
+	{
+		override1 obj=new override1();
+		obj.meth(2);
+	}
+
+}
