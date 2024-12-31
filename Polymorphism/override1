@@ -1,0 +1,14 @@
+package oops_program;
+
+public class override
+{
+	void meth(int a)
+	{
+		System.out.println("this is first12");
+	}
+	public static void main(String[] args) 
+	{
+		new override().meth(1);
+	}
+
+}
