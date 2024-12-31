@@ -1,0 +1,30 @@
+package oops_program;
+
+public class poly 
+{
+	void meth()
+	{
+		System.out.println("this is meth overloading 1");
+	}
+	void meth(int a)
+	{
+		System.out.println("this is meth overloading 2: "+a);
+	}
+	void meth(int a, int b)
+	{
+		System.out.println("this is meth overloading 3: "+(a+b));
+	}
+	void meth(String s)
+	{
+		System.out.println("this is meth overloading 4: "+s);
+	}
+	public static void main(String[] args) 
+	{
+	 poly obj=new poly();
+	 obj.meth();
+	 obj.meth(5);
+	 obj.meth(5, 10);
+	 obj.meth("DRYDEN");
+	}
+
+}
