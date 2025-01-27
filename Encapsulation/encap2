@@ -1,0 +1,19 @@
+package oops_program;
+
+public class encapsulation1
+{
+	void meth()
+	{
+		encapsulation2 obj=new encapsulation2();
+		obj.set1(10);
+		obj.set2("dryden");
+		
+		System.out.println(obj.get1());
+		System.out.println(obj.get2());
+	}
+	public static void main(String[] args)
+	{
+		new encapsulation1().meth();
+	}
+
+}
