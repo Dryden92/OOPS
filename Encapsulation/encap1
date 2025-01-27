@@ -1,0 +1,25 @@
+package oops_program;
+
+public class encapsulation2
+{
+		private int i;
+		private String name;
+		
+		void set1(int i)
+		{
+			this.i=i;
+		}
+		void set2(String name)
+		{
+			this.name=name;
+		}
+		
+		int get1()
+		{
+			return i;
+		}
+		String get2()
+		{
+			return name;
+		}
+}
