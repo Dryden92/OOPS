@@ -1,0 +1,28 @@
+public class Main
+{
+    void meth()
+    {
+        System.out.println("hello world");
+    }
+    void meth(int x)
+    {
+        System.out.println(x);
+    }
+    void meth(int i, int j)
+    {
+        System.out.println(i+j);
+    }
+    void meth(String a)
+    {
+        System.out.println(a);
+    }
+	public static void main(String[] args)
+	{
+		Main obj=new Main();
+		
+		obj.meth();
+		obj.meth(10);
+		obj.meth(5,10);
+		obj.meth("java");
+	}
+}
